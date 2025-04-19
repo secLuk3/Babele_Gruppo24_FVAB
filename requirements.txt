@@ -1,0 +1,11 @@
+tensorflow==2.10.0
+einops
+tqdm
+opencv-python
+numpy
+matplotlib
+imageio
+seaborn
+pydot
+tensorflow-docs
+
