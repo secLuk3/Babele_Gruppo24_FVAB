@@ -1,0 +1,2 @@
+model_checkpoint_path: "pesi_3dcnn_100_epoche"
+all_model_checkpoint_paths: "pesi_3dcnn_100_epoche"

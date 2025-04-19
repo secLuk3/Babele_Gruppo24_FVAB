@@ -1,0 +1,33 @@
+Image res: 120x80
+Numero frames: 80
+Frame step: 3
+Batch size: 32
+Shuffle: True
+Learning rate: Adam (0.0001)
+Space convolution: 7 x 7
+Time convolution: 5
+Numero epoche: 120
+
+5/5 [==============================] - 115s 20s/step - loss: 3.1574 - accuracy: 0.2250
+{'loss': 3.157421827316284, 'accuracy': 0.22499999403953552}
+
+precision:
+ 'Italian': 0.0,
+ 'English': 0.0,
+ 'German': 0.7142857142857143,
+ 'Spanish': 0.0,
+ 'Dutch': 0.7142857142857143,
+ 'Russian': 0.0,
+ 'Japanese': 0.3684210526315789,
+ 'French': 0.09523809523809523
+
+recall:
+ 'Italian': 0.0,
+ 'English': 0.0,
+ 'German': 0.5,
+ 'Spanish': 0.0,
+ 'Dutch': 0.75,
+ 'Russian': 0.0,
+ 'Japanese': 0.35,
+ 'French': 0.2
+
