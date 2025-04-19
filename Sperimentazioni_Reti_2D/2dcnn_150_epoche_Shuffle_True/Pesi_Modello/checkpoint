@@ -1,0 +1,2 @@
+model_checkpoint_path: "pesi_2dcnn_150_epoche_Vincenzo"
+all_model_checkpoint_paths: "pesi_2dcnn_150_epoche_Vincenzo"

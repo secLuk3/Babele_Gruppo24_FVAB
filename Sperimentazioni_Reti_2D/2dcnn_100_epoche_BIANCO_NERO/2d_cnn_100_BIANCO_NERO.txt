@@ -1,0 +1,34 @@
+Image res: 90x60
+Numero frames: 40
+Frame step: 3
+Batch size: 32
+Shuffle: True
+Learning rate: Adam (0.0001)
+
+
+
+PRECISION:
+{'Italian': 0.16666666666666666,
+ 'English': 0.04,
+ 'German': 0.6818181818181818,
+ 'Spanish': 0.07142857142857142,
+ 'Dutch': 0.3888888888888889,
+ 'Russian': 0.3333333333333333,
+ 'Japanese': 0.07142857142857142,
+ 'French': 0.0625}
+
+
+RECALL:
+{'Italian': 0.1,
+ 'English': 0.05,
+ 'German': 0.75,
+ 'Spanish': 0.05,
+ 'Dutch': 0.7,
+ 'Russian': 0.35,
+ 'Japanese': 0.05,
+ 'French': 0.05}
+
+
+EVALUATE:
+5/5 [==============================] - 21s 4s/step - loss: 1.7574 - accuracy: 0.3125
+{'loss': 1.7573665380477905, 'accuracy': 0.3025}
